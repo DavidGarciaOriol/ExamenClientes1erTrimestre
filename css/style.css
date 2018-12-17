@@ -16,6 +16,12 @@ form{
     margin-bottom: 2%;
      
 }
+.formDiv p{
+
+    margin: 1%;
+    color: rgb(255, 0, 0);
+     
+}
 .formDiv form select{
 
     margin-bottom: 2%;
@@ -25,11 +31,7 @@ form{
 
 .formDiv form input[type=text], .formDiv form input[type=number]{
 
-    border: none;
-
     background-color: transparent;
-
-    border-bottom: 1px solid rgb(214, 214, 214);
 
 }
 
@@ -40,9 +42,9 @@ form{
 }
 
 .errorInput{
-    border: 2px solid red;
+    border: 2px solid rgb(255, 0, 0);
 }
 
-.errorInput{
-    border: 2px solid rgb(8, 190, 69);
+.validInput{
+    border: 2px solid rgb(0, 255, 0);
 }
