@@ -1,0 +1,40 @@
+body{
+    height: 679px;
+    background-image: linear-gradient(to right bottom, white, black);
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;   
+}
+
+.formDiv form input{
+
+    margin-bottom: 2%;
+     
+}
+.formDiv form select{
+
+    margin-bottom: 2%;
+     
+}
+
+
+.formDiv form input[type=text], .formDiv form input[type=number]{
+
+    border: none;
+
+    background-color: transparent;
+
+    border-bottom: 1px solid rgb(214, 214, 214);
+
+}
+
+.formDiv form input[type=text]:hover, .formDiv form input[type=number]:hover{
+    
+    border-bottom: 1px solid rgb(95, 207, 204);
+
+}
