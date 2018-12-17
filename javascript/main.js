@@ -39,7 +39,7 @@ $(document).ready(function(){
         if(!idExpresion.keyup(appDni.value)){
             $("#appDni").removeClass('validImput');
             $("#appDni").addClass('errorInput');
-            let errAppDni = $("<p> El campo DNI debe contener 8 números seguidos de una letra mayúscula. </p>";
+            let errAppDni = $("<p> El campo DNI debe contener 8 números seguidos de una letra mayúscula. </p>");
             $("#appDni").append(errAppDni);
         } else{
             $("#appDni").removeClass('errorImput');
