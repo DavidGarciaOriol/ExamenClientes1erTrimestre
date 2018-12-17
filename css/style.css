@@ -35,6 +35,14 @@ form{
 
 .formDiv form input[type=text]:hover, .formDiv form input[type=number]:hover{
     
-    border-bottom: 1px solid rgb(95, 207, 204);
+    border-bottom: 1px solid rgb(49, 128, 148);
 
+}
+
+.errorInput{
+    border: 2px solid red;
+}
+
+.errorInput{
+    border: 2px solid rgb(8, 190, 69);
 }
